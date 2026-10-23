@@ -1,0 +1,1763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Robert Pimentel | Computer Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of John Robert Pimentel, Computer Engineer specializing in System and Network Administration, IT support, and infrastructure monitoring.">
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Blog Modal -->
+<div class="blog-modal" id="blog-modal">
+
+  <div class="blog-modal-box">
+
+    <button class="blog-modal-close" aria-label="Close modal">
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="blog-modal-body"></div>
+
+  </div>
+
+</div>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="John Robert Pimentel" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="John Robert Pimentel">John Robert Pimentel</h1>
+
+          <p class="title">Computer Engineer</p>
+
+          <p class="title" style="margin-bottom: -9px;"></p>
+          <p class="title">Technical & Systems Specialist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Github</p>
+
+              <a href="https://github.com/jrdpimentel"
+                class="contact-link"
+                target="_blank"
+                rel="noopener noreferrer">
+                jrdpimentel
+              </a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Linkedin</p>
+
+              <a href="https://www.linkedin.com/in/jrdpimentel/"
+                class="contact-link"
+                target="_blank"
+                rel="noopener noreferrer">
+                in/jrdpimentel
+              </a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+          <div class="icon-box">
+            <ion-icon name="mail-outline"></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Email</p>
+
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact.jrdpimentel@gmail.com"
+            class="contact-link"
+            target="_blank">
+            contact.jrdpimentel@gmail.com
+            </a>
+          </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+639152044223" class="contact-link">(+63) 915-204-4223</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1999-07-02">July 02, 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>San Quintin, Pangasinan, Philippines</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Recent Bachelor of Science in Computer Engineering graduate, major in System and Network Administration, with hands-on experience in IT infrastructure, system administration, network operations, troubleshooting, and technical support. Skilled in Windows administration, Active Directory, TCP/IP, IP addressing, subnetting, VLANs, DNS, DHCP, VPN, network monitoring, hardware/software troubleshooting, and ticket-based incident resolution. Programming experience includes Python, PHP, C#, and embedded C/C++ development.
+          </p>
+
+          <p>
+            Experienced in testing network infrastructure, software applications, and integrating hardware and software systems. Familiar with system monitoring, root cause analysis, software testing and validation, deployment, access management, and infrastructure troubleshooting. Seeking to apply strong analytical, technical problem-solving, automation, and reliability-focused skills to an organization with common goal.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm good at</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">System Administration</h4>
+
+                <p class="service-item-text">
+                  Managing Windows systems, user access, configurations, software, and basic infrastructure operations.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="System Design & Development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">IT Troubleshooting</h4>
+
+                <p class="service-item-text">
+                  Diagnosing hardware, software, network, and system issues through structured root-cause analysis.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Network Administration</h4>
+
+                <p class="service-item-text">
+                  Configuring IP addressing, VLANs, routing, DHCP, DNS, and network connectivity.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Infrastructure Monitoring</h4>
+
+                <p class="service-item-text">
+                  Monitoring system health, connectivity, performance, and availability to identify potential issues.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Character References</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Gervin Estoque II" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Gervin Estoque II</h4>
+
+                <p class="testimonials-item-detail">IT Systems Specialist - OJT Supervisor</p>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    John consistently showed initiative, reliability, and a genuine willingness to learn throughout his time under my supervision. He was not afraid to take on technical tasks, troubleshoot issues, and ask the right questions when faced with unfamiliar situations. What stood out most was his ability to apply what he learned while remaining responsible and professional, making him a dependable member of the IT support team.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Angelito Obedoza" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Angelito Obedoza</h4>
+
+                <p class="testimonials-item-detail">Businessman - Previous Employer</p>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    John has been a reliable and hardworking person. Despite balancing his studies with work, he consistently showed initiative, patience, and a willingness to learn. He assisted customers, handled printing services, and helped troubleshoot computer-related problems with care and dedication. What I appreciated most was his sense of responsibility and his eagerness to improve his skills. I believe the experience he gained here, along with his positive attitude and work ethic, will serve him well in his future career.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Lyan Ruth Santiago" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Lyan Ruth Santiago</h4>
+
+                <p class="testimonials-item-detail">Engineer - Professional Mentor</p>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working with John Robert gave me the opportunity to see his growth not only in technical knowledge but also in discipline and professionalism. He approached engineering tasks with curiosity and attention to detail, and he was always willing to learn from guidance and apply it to his work. His determination to improve and his willingness to take responsibility made his progress genuinely noticeable.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Jay-R Galwardo" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jay-R Galwardo</h4>
+
+                <p class="testimonials-item-detail">Engineer - University Instructor</p>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Robert demonstrated a strong willingness to understand the practical side of engineering and consistently showed effort in applying what he learned. He approached technical activities with patience, asked meaningful questions, and remained committed even when tasks required additional effort. His attitude toward learning and his desire to build a strong professional foundation made him stand out as a student who is serious about his future career.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Kristine Joy Natividad" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Kristine Joy Natividad</h4>
+
+              <time datetime="2021-06-14">(Contact details are available upon request)</time>
+
+              <div data-modal-text>
+                <p>
+                  Robert was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. 
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+          <a href="./assets/files/John-Robert-Pimentel-Resume.pdf"
+            download="John-Robert-Pimentel-Resume.pdf"
+            style="color: #ffdb70;">
+          [ Click here to download my Resume in PDF format ]
+          </a>
+
+          <p class="timeline-text" style="margin-bottom: 30px;"></p>
+
+          <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Panpacific University</h4>
+
+              <span>2022 — 2026</span>
+
+              <p class="timeline-text">
+                Bachelor of Science in Computer Engineering
+              </p>
+
+              <p class="timeline-text">
+                Major in System and Network Administration
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">San Quintin National High School</h4>
+
+              <span>2012 — 2018</span>
+
+              <p class="timeline-text">
+                Junior and Senior High School (STEM)
+              </p>
+
+              <p class="timeline-text">
+                Specialized in Computer Hardware Servicing
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Certification and Trainings</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Safety Officer 2 (SO2) Certification</h4>
+
+              <span>August 2025</span>
+
+              <p class="timeline-text">
+              [ <strong><i>Mastery Consultancy - OPC</i></strong> ]
+
+              </p>
+
+              <p class="timeline-text">
+              •	Trained with Basic Occupational Safety and Health (BOSH) program for SO2s that equips safety officers with the knowledge to identify hazards, assess risks, and prevent medium to high-risk workplace accidents.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Networking</h4>
+
+              <span>August 2024</span>
+
+              <p class="timeline-text">
+              [ <strong><i>Cisco Networking Academy</i></strong> ]
+
+              </p>
+
+              <p class="timeline-text">
+              •	Completed training covering networking fundamentals, IP addressing, subnetting, routers, switches, 
+and basic network configuration.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Acquired hands-on experience through simulations using Cisco tools and network troubleshooting exercises.
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cybersecurity</h4>
+
+              <span>July 2023</span>
+
+              <p class="timeline-text">
+              [ <strong><i>Cisco Networking Academy</i></strong> ]
+
+              </p>
+
+              <p class="timeline-text">
+              •	Gained foundational knowledge in cybersecurity principles, threat detection, online safety, and security best practices.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Developed understanding of common attack methods, defense strategies, and basic security technologies.
+
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">IT Service Management (ITSM) Internship</h4>
+
+              <span>February 2026 - May 2026</span>
+
+              <p class="timeline-text">
+              [ <strong><i>Foundever - Philippines</i></strong> ]
+
+              <p class="h4 timeline-item-title"></p>
+              <strong style="color: white;">Level 1 IT Support</strong>
+
+              </p>
+
+              <p class="timeline-text">
+              • Handled daily end-user requests through calls, emails, and the Ticketing System.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Provided first-line assistance for common hardware, software, and workstation issues.
+
+              </p>
+
+              <p class="timeline-text">
+              • Assisted users with standard IT requests and basic troubleshooting.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Facilitated order tracking and confirmation for IT equipment and peripherals.
+              </p>
+
+              <p class="timeline-text">
+              • Maintained basic support records, reports, and IT inventory information.
+
+              </p>
+
+              <p class="h4 timeline-item-title"></p>
+              <strong style="color: white;">Level 2 IT Support</strong>
+
+              </p>
+
+              <p class="timeline-text">
+              •	Installed, configured, and maintained Windows 10/11 workstations, VPNs, and network devices.
+
+              </p>
+
+              <p class="timeline-text">
+              • Performed PC imaging, testing, deployment, firmware updates, and workstation maintenance.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Deployed and maintained company-based applications, software, and IT tools.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Managed Active Directory access rights and Group Policies to support user access and system security.
+
+              </p>
+
+              <p class="timeline-text">
+              • Performed data backup and recovery and maintained user records.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Assisted with server room activities, including basic network equipment handling, cable management, equipment checks, and infrastructure maintenance with guidance.
+
+              </p>
+
+              <p class="timeline-text">
+              • Assisted with VPN and network connectivity troubleshooting and network equipment support.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Conducted IT inventory audits and maintained records of equipment and peripherals.
+              </p>
+
+              <p class="h4 timeline-item-title"></p>
+              <strong style="color: white;">Level 3 IT Support</strong>
+
+              </p>
+
+              <p class="timeline-text">
+              • Assisted technical teams with root cause analysis for recurring or complex IT issues.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Supported the implementation of corrective actions to reduce or prevent system downtime.
+
+              </p>
+
+              <p class="timeline-text">
+              • Assisted with firewall configuration and network security controls.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Supported VLAN access restrictions, including blocking VLANs from accessing designated sites and servers.
+              </p>
+
+              <p class="timeline-text" style="margin-bottom: 15px;">
+              • Assisted with troubleshooting issues involving network infrastructure, security configurations, and system availability.
+
+              </p>
+
+              <p class="h4 timeline-item-title"></p>
+              <strong style="color: gold;">Project:</strong> <strong style="color: white;">NOCular</strong>
+
+              </p>
+
+              <p class="timeline-text" style="margin-bottom: 6px;">
+              <strong><i>Why NOCular was created?</i></strong>
+
+              <p class="timeline-text" style="margin-bottom: 15px;">
+                  As a Computer Engineering student beginning my internship, I wanted to contribute more than completing assigned tasks. The ITSM modules and scripts discussed by the acting supervisors gave me an opportunity to explore how technical tools and service-management processes could work together.
+              </p>
+
+              <p class="timeline-text" style="margin-bottom: 8px;">
+                  I recognized an opportunity to apply my System and Network Administration background by building a Python-based monitoring tool that checks CPU, memory, disk usage, and network connectivity. I led my group to create this project connecting monitoring results to warning alerts, incident records, and troubleshooting recommendations.
+
+              </p>
+
+              <p class="timeline-text" style="margin-bottom: 15px;">
+              * <strong><i>See Portfolio-Projects for more info.</i></strong>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Technical & Customer Service Assistant</h4>
+
+              <span>October 2022 - January 2026</span>
+
+              <p class="timeline-text" style="margin-bottom: 15px;">
+              [ <strong><i>Frenzter Virgie (Printing & Computer Servicing Business) - Philippines</i></strong> ]
+
+              </p>
+
+              <p class="timeline-text">
+              • Developed, managed, and maintained a Computer Rental Management System with Point of Sale, and real-time monitoring functions.
+              </p>
+
+              <p class="timeline-text">
+              • Assisted customers with printing and other services using Microsoft 365 (Word, Excel, PowerPoint, etc.).
+              </p>
+
+              <p class="timeline-text">
+              •	Handled customer inquiries, service requests, and technical concerns in person, by email, or via call.
+
+              </p>
+
+              <p class="timeline-text">
+              • Provided technical assistance to customers regarding system issues, file formatting, and device connectivity.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Performed computer troubleshooting, software installation, and hardware diagnostics for customer devices.
+
+              </p>
+
+              <p class="timeline-text">
+              • Configured and maintained printers, computers, and network connections to support business operations.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Managed inventory of computer parts, printing supplies, and technical equipment to ensure availability.
+
+              </p>
+
+              <p class="timeline-text">
+              • Facilitated in setting up and maintaining applications, OS, and peripheral devices for shop and client use.
+              </p>
+
+              <p class="timeline-text">
+              •	Maintained organized digital records of customer transactions, repair requests, and completed services.
+              </p>
+
+              <p class="timeline-text" style="margin-bottom: 15px;"></p>
+              <p class="h4 timeline-item-title"></p>
+              <strong style="color: gold;">Project:</strong> <strong style="color: white;">MAGNOS - Management And Governance Network Operations System</strong>
+
+              </p>
+
+              <p class="timeline-text" style="margin-bottom: 6px;">
+              <strong><i>Why MAGNOS was created?</i></strong>
+
+              <p class="timeline-text" style="margin-bottom: 15px;">
+                  While I was working at Frenzter Virgie, a printing and computer servicing business. I realized how important it was to manage their rental computers efficiently, especially when it came to monitoring usage, tracking rental time, and handling transactions. Seeing these challenges firsthand inspired me to develop a system that could simplify daily operations and reduce the need for manual management.
+              </p>
+
+              <p class="timeline-text" style="margin-bottom: 8px;">
+                  I wanted to apply what I learned in school. I wanted to use my technical knowledge to solve an actual business problem. By developing MAGNOS as a computer rental management, with point-of-sale, and real-time monitoring system, I aimed to make the business more organized, efficient, and easier to manage. It was my way of contributing to a business I cared about while turning what I learned into something practical and useful.
+
+              </p>
+
+              <p class="timeline-text" style="margin-bottom: 15px;">
+              * <strong><i>See Portfolio-Projects for more info.</i></strong>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Hardware</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Software</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Troubleshooting</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Automation Tools</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Networking Tools</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>IT Support Tools</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Projects</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Automation Tools</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Networking Tools</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>IT Support Tools</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Projects</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="projects">
+              <a href="https://github.com/jrdpimentel/NOCular" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="NOCular" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NOCular</h3>
+
+                <p class="project-category">Projects (Internship)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="automation tools">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="terraform" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Terraform</h3>
+
+                <p class="project-category">Automation Tools</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="automation tools">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="ansible" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ansible</h3>
+
+                <p class="project-category">Automation Tools</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="projects">
+              <a href="https://github.com/jrdpimentel/MAGNOS" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="magnos" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MAGNOS</h3>
+
+                <p class="project-category">Projects (Work Experience)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="networking tools">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="cisco packet tracer" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cisco Packet Tracer</h3>
+
+                <p class="project-category">Networking Tools</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="networking tools">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="wireshark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Wireshark</h3>
+
+                <p class="project-category">Networking Tools</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="projects">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="student management system" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Student Management System</h3>
+
+                <p class="project-category">Projects (University Coursework)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="it support tools">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.png" alt="teamviewer" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">TeamViewer</h3>
+
+                <p class="project-category">IT Support Tools</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="it support tools">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="zendesk" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Zendesk</h3>
+
+                <p class="project-category">IT Support Tools</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#" class="blog-modal-trigger">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Outstanding Intern Award" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Award</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">September 09, 2026</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Outstanding Intern Award</h3>
+
+                  <p class="blog-text">
+                    In recognition of exemplary performance, professionalism, and commitment to excellence demonstrated throughout the internship program.
+                  </p>
+
+                  <!-- Only displayed inside the popup -->
+                  <div class="blog-extra-content" hidden>
+
+                    <p class="h3 blog-item-title" style="margin-bottom: 40px;"></p>
+                    <h3 class="h3 blog-item-title" style="font-size: 18px;">More about this:</h3>
+
+                    <p>
+                    This was awarded to me after my Internship Supervisors submitted a recommendation to our University Internship Coordinator as a form of appreciation and professional acknowledgement to my contributions while I was still an intern. Wholeheartedly, being acknowledged with this award strengthened my commitment to continuous learning,
+                    technical development, and delivering quality professional service in this field.
+                    </p>
+                  </div>
+
+                </div>
+
+              </a>
+            </li>
+            
+            <li class="blog-post-item">
+              <a href="#" class="blog-modal-trigger">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Internship Documentation" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Internship</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">February 2026 - May 2026</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Internship Documentation</h3>
+
+                  <p class="blog-text">
+                    Highlights of works and responsibilities in hardware and software operations on my ITSM Internship at Foundever. More details on Resume - Experience page.
+                  </p>
+
+                  <!-- Only displayed inside the popup -->
+                  <div class="blog-extra-content" hidden>
+
+                    <p class="h3 blog-item-title" style="margin-bottom: 40px;"></p>
+                    <h3 class="h3 blog-item-title" style="font-size: 18px;">More about this:</h3>
+
+                    <section class="timeline"> 
+
+              <h4 class="h4 timeline-item-title">IT Service Management (ITSM) Internship</h4>
+
+              <p class="timeline-text">
+              [ <strong><i>Foundever - Philippines</i></strong> ]
+
+              <p class="h4 timeline-item-title"></p>
+              <strong style="color: goldenrod;">Level 1 IT Support</strong>
+
+              </p>
+
+              <p class="timeline-text">
+              • Handled daily end-user requests through calls, emails, and the Ticketing System.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Provided first-line assistance for common hardware, software, and workstation issues.
+
+              </p>
+
+              <p class="timeline-text">
+              • Assisted users with standard IT requests and basic troubleshooting.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Facilitated order tracking and confirmation for IT equipment and peripherals.
+              </p>
+
+              <p class="timeline-text">
+              • Maintained basic support records, reports, and IT inventory information.
+
+              </p>
+
+              <p class="h4 timeline-item-title"></p>
+              <strong style="color: goldenrod;">Level 2 IT Support</strong>
+
+              </p>
+
+              <p class="timeline-text">
+              •	Installed, configured, and maintained Windows 10/11 workstations, VPNs, and network devices.
+
+              </p>
+
+              <p class="timeline-text">
+              • Performed PC imaging, testing, deployment, firmware updates, and workstation maintenance.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Deployed and maintained company-based applications, software, and IT tools.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Managed Active Directory access rights and Group Policies to support user access and system security.
+
+              </p>
+
+              <p class="timeline-text">
+              • Performed data backup and recovery and maintained user records.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Assisted with server room activities, including basic network equipment handling, cable management, equipment checks, and infrastructure maintenance with guidance.
+
+              </p>
+
+              <p class="timeline-text">
+              • Assisted with VPN and network connectivity troubleshooting and network equipment support.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Conducted IT inventory audits and maintained records of equipment and peripherals.
+              </p>
+
+              <p class="h4 timeline-item-title"></p>
+              <strong style="color: goldenrod;">Level 3 IT Support</strong>
+
+              </p>
+
+              <p class="timeline-text">
+              • Assisted technical teams with root cause analysis for recurring or complex IT issues.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Supported the implementation of corrective actions to reduce or prevent system downtime.
+
+              </p>
+
+              <p class="timeline-text">
+              • Assisted with firewall configuration and network security controls.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Supported VLAN access restrictions, including blocking VLANs from accessing designated sites and servers.
+              </p>
+
+              <p class="timeline-text" style="margin-bottom: 15px;">
+              • Assisted with troubleshooting issues involving network infrastructure, security configurations, and system availability.
+
+              </p>
+
+                          <p class="h4 timeline-item-title"></p>
+              <strong style="color: gold;">Project:</strong> <strong style="color: white;">NOCular</strong>
+
+              </p>
+
+              <p class="timeline-text" style="margin-bottom: 6px;">
+              <strong><i>Why NOCular was created?</i></strong>
+
+              <p class="timeline-text" style="margin-bottom: 15px;">
+                  As a Computer Engineering student beginning my internship, I wanted to contribute more than completing assigned tasks. The ITSM modules and scripts discussed by the acting supervisors gave me an opportunity to explore how technical tools and service-management processes could work together.
+              </p>
+
+              <p class="timeline-text" style="margin-bottom: 8px;">
+                  I recognized an opportunity to apply my System and Network Administration background by building a Python-based monitoring tool that checks CPU, memory, disk usage, and network connectivity. I led my group to create this project connecting monitoring results to warning alerts, incident records, and troubleshooting recommendations.
+
+              </p>
+
+              <p class="timeline-text" style="margin-bottom: 15px;">
+              * <strong><i>See Portfolio-Projects for more info.</i></strong>
+              </p>
+
+            </section>
+
+                  </div>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#" class="blog-modal-trigger">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Internalization" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">International</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">January 24 - January 31, 2026</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Vietnam Training Program</h3>
+
+                  <p class="blog-text">
+                    An international training that's a mix of hands-on, collaborative, and observational activities which also includes a company visit to RIKAI Technologies, Da Nang, Vietnam.
+                  </p>
+
+                  <!-- Only displayed inside the popup -->
+                  <div class="blog-extra-content" hidden>
+
+                    <p class="h3 blog-item-title" style="margin-bottom: 40px;"></p>
+                    <h3 class="h3 blog-item-title" style="font-size: 18px;">More about this:</h3>
+
+                    <p class="h4 timeline-item-title"></p>
+                      Program Title: <strong style="color: goldenrod;">Advancing AI, Robotics, and Drone Technology</strong> at FPT University in Da Nang City, Vietnam
+
+                    </p>
+
+                    <p class="blog-item-text" style="margin-bottom: 12px;"></p>
+                    <p>
+                    • Hands-on learning and demonstrations about AI as well as software testing and development.
+                    </p>
+
+                    <p>
+                    • Interacted with professionals on real-world technology applications and innovation.
+                    </p>
+
+                    <p>
+                    • Technical training program focused on AI, Robotics, and Drone technologies.
+                    </p>
+                  </div>
+
+                </div>
+
+              </a>
+            </li>  
+
+            <li class="blog-post-item">
+             <a href="#" class="blog-modal-trigger">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="Work Experience" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Work Experience</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Oct 2022 - Jan 2026</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Life Outside the University</h3>
+
+                  <p class="blog-text">
+                  Outside the university, I worked as part-time Technical & Customer Service Assistant while attending classes, and shifted to full-time work whenever there were no classes. 
+                  </p>
+
+                  <!-- Only displayed inside the popup -->
+                  <div class="blog-extra-content" hidden>
+
+                    <p class="h3 blog-item-title" style="margin-bottom: 40px;"></p>
+                    <h3 class="h3 blog-item-title" style="font-size: 18px;">More about this:</h3>
+
+                    <p class="h4 timeline-item-title"></p>
+                    <strong style="color: goldenrod;">Technical & Customer Service Assistant</strong>
+
+                    </p>
+
+              <p class="timeline-text" style="margin-bottom: 15px;">
+              [ <strong>Frenzter Virgie (Printing & Computer Servicing Business)</strong> ]
+
+              </p>
+
+              <p class="timeline-text">
+              • Developed, managed, and maintained a Computer Rental Management System with Point of Sale, and real-time monitoring functions.
+              </p>
+
+              <p class="timeline-text">
+              • Assisted customers with printing and other services using Microsoft 365 (Word, Excel, PowerPoint, etc.).
+              </p>
+
+              <p class="timeline-text">
+              •	Handled customer inquiries, service requests, and technical concerns in person, by email, or via call.
+
+              </p>
+
+              <p class="timeline-text">
+              • Provided technical assistance to customers regarding system issues, file formatting, and device connectivity.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Performed computer troubleshooting, software installation, and hardware diagnostics for customer devices.
+
+              </p>
+
+              <p class="timeline-text">
+              • Configured and maintained printers, computers, and network connections to support business operations.
+
+              </p>
+
+              <p class="timeline-text">
+              •	Managed inventory of computer parts, printing supplies, and technical equipment to ensure availability.
+
+              </p>
+
+              <p class="timeline-text">
+              • Facilitated in setting up and maintaining applications, OS, and peripheral devices for shop and client use.
+              </p>
+
+              <p class="timeline-text">
+              •	Maintained organized digital records of customer transactions, repair requests, and completed services.
+              </p>
+
+              <p class="timeline-text" style="margin-bottom: 15px;"></p>
+              <p class="h4 timeline-item-title"></p>
+              <strong style="color: gold;">Project:</strong> <strong style="color: white;">MAGNOS - Management And Governance Network Operations System</strong>
+
+              </p>
+
+              <p class="timeline-text" style="margin-bottom: 6px;">
+              <strong><i>Why MAGNOS was created?</i></strong>
+
+              <p class="timeline-text" style="margin-bottom: 15px;">
+                  While I was working at Frenzter Virgie, a printing and computer servicing business. I realized how important it was to manage their rental computers efficiently, especially when it came to monitoring usage, tracking rental time, and handling transactions. Seeing these challenges firsthand inspired me to develop a system that could simplify daily operations and reduce the need for manual management.
+              </p>
+
+              <p class="timeline-text" style="margin-bottom: 8px;">
+                  I wanted to apply what I learned in school. I wanted to use my technical knowledge to solve an actual business problem. By developing MAGNOS as a computer rental management, with point-of-sale, and real-time monitoring system, I aimed to make the business more organized, efficient, and easier to manage. It was my way of contributing to a business I cared about while turning what I learned into something practical and useful.
+
+              </p>
+
+              <p class="timeline-text" style="margin-bottom: 15px;">
+              * <strong><i>See Portfolio-Projects for more info.</i></strong>
+              </p>
+                  </div>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#" class="blog-modal-trigger">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="Safety Officer Certification" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Certification</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">August 29, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Safety Officer Certification</h3>
+
+                  <p class="blog-text">
+                    Trained with program that equips safety officers with
+the knowledge to identify hazards, assess risks, and prevent medium to high-risk workplace accidents.
+
+                  </p>
+
+                  <!-- Only displayed inside the popup -->
+                  <div class="blog-extra-content" hidden>
+
+                    <p class="h3 blog-item-title" style="margin-bottom: 40px;"></p>
+                    <h3 class="h3 blog-item-title" style="font-size: 18px;">More about this:</h3>
+
+              <p class="h4 timeline-item-title"></p>
+              <strong style="color: goldenrod;">Hazard Identification & Control</strong>
+
+              </p>
+
+              <p class="timeline-text">
+              • Trained to perform Hazard Identification, Risk Assessment, and Control (HIRAC) to minimize workplace dangers.
+
+              </p>
+
+              <p class="h4 timeline-item-title"></p>
+              <strong style="color: goldenrod;">Accident Investigation</strong>
+
+              </p>
+
+              <p class="timeline-text">
+              • Learned root-cause analysis and proper investigation protocols when workplace incidents occur
+
+              </p>
+
+              <p class="h4 timeline-item-title"></p>
+              <strong style="color: goldenrod;">Policy Implementation</strong>
+
+              </p>
+
+              <p class="timeline-text">
+              •  Prepared to build, roll out, and monitor company-specific safety and health programs.
+
+              </p>
+                  </div>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#" class="blog-modal-trigger">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Leadership Competencies" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Leadership</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">February 23, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Leadership Competencies</h3>
+
+                  <p class="blog-text">
+                    Displays effective problem-solving, and decision-making while motivating others, managing responsibilities, and working collaboratively toward shared goals.
+                  </p>
+
+                  <!-- Only displayed inside the popup -->
+                  <div class="blog-extra-content" hidden>
+
+                    <p class="h3 blog-item-title" style="margin-bottom: 40px;"></p>
+                    <h3 class="h3 blog-item-title" style="font-size: 18px;">More about this:</h3>
+
+                    <p>
+                    Throughout my stay in the university, I learned that leadership is not just about holding a position or giving instructions, but about being dependable, listening to others, and helping the team move forward. Whether working on group projects, organizing activities, or facing challenges with classmates, I tried to contribute by sharing ideas, making thoughtful decisions, and encouraging others to do their best. I also learned to value different perspectives, take responsibility for my actions, and remain open to feedback.
+
+                    </p>
+
+                    <p class="h3 blog-item-title" style="margin-bottom: 18px;"></p>
+                    <p>
+                    Outside the university, I continued to develop these qualities through community involvement, personal responsibilities, and experiences working with others. These experiences taught me to be patient, understanding, and willing to step up when help is needed. I believe genuine leadership means recognizing that everyone has something valuable to contribute, and doing my part to create an environment where people feel supported, respected, and motivated to achieve a common goal.
+
+                    </p>
+
+                  </div>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+  - #CONTACT
+-->
+
+<article class="contact" data-page="contact">
+
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+
+  <section class="mapbox" data-mapbox>
+    <figure>
+      <iframe
+        src="https://www.google.com/maps?q=San+Quintin,+Pangasinan+2444,+Philippines&output=embed"
+        width="400"
+        height="300"
+        loading="lazy">
+      </iframe>
+    </figure>
+  </section>
+
+  <section class="contact-form">
+
+    <h3 class="h3 form-title">Contact Form (Under development...)</h3>
+
+    <form action="#" class="form" data-form>
+
+      <div class="input-wrapper">
+        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+      </div>
+
+      <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+      <button class="form-btn" type="submit" disabled data-form-btn>
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Send Message</span>
+      </button>
+
+    </form>
+
+  </section>
+
+</article>
+
+    </div>
+
+  </main>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
