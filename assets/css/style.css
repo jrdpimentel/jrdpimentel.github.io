@@ -2005,3 +2005,89 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+
+/*-----------------------------------*\
+  #MOBILE-ONLY EDITS (phones, portrait)
+  Does not affect tablet / PC (580px and wider)
+\*-----------------------------------*/
+
+@media (max-width: 579px) {
+
+  /* ---- 1 & 2: Profile card ---- */
+
+  /* Collapsed by default: height fits the photo, name and titles exactly */
+  .sidebar,
+  .sidebar.active { max-height: none; }
+
+  .sidebar-info { gap: 12px; }
+
+  /* Complete profile picture, fixed size so nothing gets cut off */
+  .avatar-box {
+    flex: 0 0 100px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .avatar-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+  }
+
+  /* Name and titles stacked beside the photo */
+  .info-content {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  /* Name on ONE line (shrinks slightly on very small phones) */
+  .info-content .name {
+    white-space: nowrap;
+    font-size: clamp(12px, calc((100vw - 179px) / 11), 22px);
+    margin-bottom: 8px;
+  }
+
+  /* Both titles: same width, aligned under the name */
+  .info-content .title {
+    width: 100%;
+    margin: 0 0 6px;
+    padding: 4px 6px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: clamp(8px, calc((100vw - 195px) / 15.5), 11px);
+  }
+
+  .info-content .title:last-child { margin-bottom: 0; }
+
+  /* Hide the empty spacer title used for the PC layout */
+  .info-content .title:empty { display: none; }
+
+  /* Contact details: hidden until the arrow is tapped, then shown in full */
+  .sidebar-info_more {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease, opacity 0.25s ease, visibility 0.25s ease;
+  }
+
+  .sidebar.active .sidebar-info_more { max-height: 900px; }
+
+
+  /* ---- 3: Character References – title below the name ---- */
+
+  .testimonials-item-detail {
+    position: static;
+    display: block;
+    margin: 2px 0 0;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .testimonials-text { margin-top: 12px; }
+
+}
